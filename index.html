@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <title>Meal Planner</title>
+    <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img src="#logo">Meal Planner
+        </div>
+    </header>
+    <!-- User Form Start -->
+    <form class="user-form">
+        <input placeholder="Enter Weight" class="weight" type="number">
+        <input placeholder="Enter Height" class="height" type="number">
+        <input placeholder="Enter Age" class="age" type="number">
+        <input placeholder="Gender" class="gender" type="text">
+        <select placeholder="Activity Level" class="activity-level">
+            <option value="light">Light</option>
+            <option value="moderate">Moderate</option>
+            <option value="active">Active</option>
+        </select>
+        <button class="gen" type="submit">Generate Meals</button>
+    </form>
+    <!-- Meal Card starts -->
+    <div class="card-head">
+        <div class="card">
+            <div class="card-heading">
+                <h3>BREAKFAST</h3>
+            </div>
+            <img class="img" src="./images/istockphoto-1455160776-2048x2048.jpg" alt="Avatar">
+            <div class="container">
+              <h4><b>Meal 1</b></h4>
+              <p>Calories-300</p>
+              <button>GET RECIPE</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-heading">
+                <h3>LUNCH</h3>
+            </div>
+            <div>
+                <img class="img" src="./images/istockphoto-1455160776-2048x2048.jpg" alt="Avatar">
+            </div>
+            <div class="container">
+              <h4><b>Meal 2</b></h4>
+              <p>Calories-300</p>
+              <button>GET RECIPE</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-heading">
+                <h3>DINNER</h3>
+            </div>
+            <img class="img" src="./images/istockphoto-1455160776-2048x2048.jpg" alt="Avatar" style="wclassth:30%">
+            <div class="container">
+              <h4><b>Meal 3</b></h4>
+              <p>Calories-300</p>
+              <button>GET RECIPE</button>
+            </div>
+        </div>
+    </div>
+    <!-- Table starts -->
+    <table class="table">
+        <thead class="table-header">
+            <tr class="table-header-row">
+                <th class="table-header-cell">INGREDIENTS</th>
+                <th class="table-header-cell">STEPS</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+            <tr class="table-body-row">
+                <td class="table-body-cell">Flour</td>
+                <td class="table-body-cell">2 tbsp</td>
+            </tr>
+            <tr class="table-body-row">
+                <td class="table-body-cell">Granulated Sugar</td>
+                <td class="table-body-cell">2 tbsp</td>
+            </tr>
+            <tr class="table-body-row">
+                <td class="table-body-cell">Fresh Lemon Juice</td>
+                <td class="table-body-cell">2 tbsp</td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+
+    </div>
+</body>
+
+</html>
